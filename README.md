@@ -1,6 +1,6 @@
 # dns-api
 
-Proof-of-concept server (in node.js) and clients (in node.js and Android) demonstrating an API communicating over the DNS protocol. See [the writeup on Medium](http://medium.com/@dgmltn/foo-bar-baz).
+Proof-of-concept server (in node.js) and clients (in node.js and Android) demonstrating an API communicating over the DNS protocol. See [the writeup on Medium](https://medium.com/@dgmltn/dns-based-api-1a8e4876b5e7).
 
 This proof-of-concept server does a String-toUpperCase translation, but it could be expanded to any server that pairs a short (around 100 byte) request to a short (around 256 byte) response.
 
