@@ -10,7 +10,7 @@ server.on('request', function (request, response) {
     }
 
     var query = name.substring(0, name.length - host_suffix.length);
-    var result = process(query);
+    var result = handle(query);
 
     var txt =  dns.TXT({
         name: name,
@@ -30,6 +30,6 @@ server.on('error', function (err, buff, req, res) {
 
 server.serve(53);
 
-function process(query) {
+function handle(query) {
     return query.toUpperCase();
 }
